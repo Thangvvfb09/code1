@@ -1,0 +1,297 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 20, 2019, 5:21:48 PM
+    Author     : Dell
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+     list-style-type: none;
+}
+body{
+    font-family: sans-serif;
+    font-size: small;
+    background-image: url(image/Bgr.jpg.gif);
+    
+}
+#website{
+    width: 1360px;
+    margin: auto;
+    background-color: white;
+    /*height: 3000px;  xoa khi co noi dung*/
+}
+#top{
+    width: 1280px;
+    margin: auto;
+    height: 58px;
+    background: url(image/Top-bg4.png);
+}
+#top-left{
+    float: left;
+    
+}
+#top-left ul{
+  
+    padding: 25px 0px 0px 25px;
+}
+#top-left ul li{
+    float: left;
+    margin-right: 8px;
+}
+#top-right{
+    float: right;
+}
+#top-right ul {
+   
+    padding: 25px 19px 0px 0px;
+    
+}
+#top-right ul li{
+    float: left;
+    margin-left: 8px;
+    color: #999999;
+}
+#top-right ul li a{
+    color: #999999;   
+}
+#top-right ul li a:hover{
+    color: #f1004c;   
+}
+#header{
+    width: 1280px;
+    margin: auto;
+    height: 200px;
+ 
+}
+#shopcart{
+    float: right;
+    margin-top: 35px;
+    margin-right: 10px;
+    position: relative;
+}
+#cuahang{
+    
+     float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+    position: relative;
+    background:url(image/support.png)no-repeat;
+
+}
+#info-cart{
+    position: absolute;z-index: 99;top: 0;
+    margin: 8px 0 0 87px;
+    color: red;
+    text-align: center;
+
+}
+#header-phone{
+     float: right;
+    width: 170px;
+    height: 31px;
+    margin-top: 27px;
+    padding-left: 26px;
+    line-height: 31px;
+    color: black;
+
+}
+#search{
+     float: right;
+    width: 200px;
+    height: 31px;
+      margin-top: 27px;
+
+      background: #f7f7f7;
+}
+#textsearch{
+    width: 120px;
+    height: 27px;
+    border: 0px;
+          
+
+}
+#search-button{
+    width: 50px;
+    height: 30px;
+    
+       border: 0px;
+     cursor: pointer;       
+
+}
+#casmenu{
+    height: 60px;
+    width: 1280px;
+    margin: 15px auto;
+
+        background: #131b26;
+}
+#casmenu ul li{
+    float: left;
+    border-right: 1px dotted #999999;
+    height: 42px;
+}
+#casmenu ul li a{
+    padding: 0px 40px 0px 40px;
+    color: #666666;
+    background: #131b26;
+    font-weight: bold;
+    line-height: 60px;
+    display: inline-block;
+}
+#casmenu img{
+    float: left;
+    padding: 5px 10px 5px 10px;
+}
+#casmenu ul li a:hover{
+    color: white;
+    background: pink;
+}
+#ads{
+    width: 1280px;
+    height: 600px;
+    margin: 20px auto;
+   
+}
+#ads-trai{
+    width: 700px;
+    height: 520px;
+    float: left;
+
+   
+}
+#ads-phai{
+    width: 500px;
+    height: 450px;
+    float: left;
+
+}
+#clr{
+    clear: both;
+}
+#main{
+    width: 1280px;
+    margin: 10px auto;
+   height: 1200px;
+   
+}
+#main-trai{
+    width: 315px;
+    height: 720px;
+    float: left;
+    border: 1px solid black;
+    
+}
+#menu-trai{
+    width: 280px;
+ 
+    margin: 10px 0 0 14px;
+    border: 1px solid #CCCCCC;  
+    border-radius: 6px;
+}
+#menu-trai ul{
+    padding: 10px 20px 20px 20px;
+}
+#menu-trai  li{
+   line-height: 26px;
+}
+#menu-trai >ul >li{
+    border-bottom: 1px solid #CCCCCC;
+}
+.submenu{
+    
+    padding-left: 30px;
+ 
+}
+#menu-trai a{
+    color: black;
+}
+#menu-trai a:hover{
+    color: deeppink;
+    cursor: pointer;
+}
+#facebook{
+    width: 315px;
+    height: 300px;
+    margin-top: 40px ;
+     border: 1px solid black;
+}
+#main-phai{
+     width: 940px;
+    
+    float: left;
+    margin-left: 20px;
+
+    border-left:  1px solid #CCCCCC;
+}
+#Product2{
+    margin-top: 50px;
+    width: 600px;
+    height: 600px;
+    border:1px solid black;
+}
+#Product{
+     border: 1px solid black;
+    margin-left: 17px;
+    margin-top: 15px;
+}
+#Product ul li{
+    width: 270px;
+    height: 370px;
+    float: left;
+    margin-right: 8px;
+
+}
+
+.content{
+    width: 260px;
+    height: 330px;
+    margin: 9px 10px 9px 10px;
+  
+}
+#content2{
+    width: 600px;
+    float: right;
+    height: 600px;
+    text-align: center;
+    
+  
+}
+.title{
+    margin-top: 6px;
+    text-align: center;
+    color: #f1004c;
+}
+.price{
+    margin-top: 3px;
+    text-align: center;
+    font-size: 12px;
+    color: #999999;
+}
+#Product ul li:hover{
+    background: #CCCCCC;
+    box-shadow: 0 0 5px #2c2c30;
+}
+#chantrang{
+	background-color: wheat;
+	width: 400px;
+	height: 500px;
+	float: left;
+	margin-top: 40px;
+}
+.chung{
+	color: red;
+	background-color: black;
+	width: 50%;
+	height: 200px;
+	float: left;
+	margin-top: 40px;
+}
